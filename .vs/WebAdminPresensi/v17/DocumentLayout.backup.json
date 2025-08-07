@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T20:44:21.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAdminPresensi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAdminPresensi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T20:44:17.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAdminPresensi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAdminPresensi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T20:44:13.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAdminPresensi\\appsettings.json",
+              "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\appsettings.json",
+              "RelativeToolTip": "WebAdminPresensi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T20:44:07.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Program.cs",
+              "RelativeDocumentMoniker": "WebAdminPresensi\\Program.cs",
+              "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Program.cs",
+              "RelativeToolTip": "WebAdminPresensi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T20:44:00.073Z",
+              "EditorCaption": ""
             }
           ]
         }
