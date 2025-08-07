@@ -15,6 +15,7 @@ namespace WebAdminPresensi.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Text = "Selamat Pagi, Semangat berjuang ";
             return View();
         }
 
