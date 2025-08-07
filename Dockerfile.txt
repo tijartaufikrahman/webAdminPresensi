@@ -1,0 +1,27 @@
+# Tahap build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+WORKDIR /app
+
+# Salin file .csproj dulu (agar restore bisa pakai cache Docker)
+COPY WebAdminPresensi/WebAdminPresensi.csproj ./WebAdminPresensi/
+
+# Jalankan restore
+RUN dotnet restore WebAdminPresensi/WebAdminPresensi.csproj
+
+# Salin seluruh source code
+COPY . .
+
+# Publish project (hasil build masuk ke folder out)
+RUN dotnet publish WebAdminPresensi/WebAdminPresensi.csproj -c Release -o out
+
+# Tahap runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+
+WORKDIR /app
+
+# Salin hasil build dari tahap sebelumnya
+COPY --from=build /app/out .
+
+# Jalankan aplikasi
+ENTRYPOINT ["dotnet", "WebAdminPresensi.dll"]
