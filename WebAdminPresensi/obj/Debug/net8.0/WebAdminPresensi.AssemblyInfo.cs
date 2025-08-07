@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAdminPresensi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e5a72d7d49ce1f3e2b4579ea2528867eac97252")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac2ab5951afe29ac0826cb59a37568eb2e8e1d98")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAdminPresensi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAdminPresensi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

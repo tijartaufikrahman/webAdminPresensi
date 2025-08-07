@@ -1,27 +1,28 @@
-# Tahap build
+# Tahap build pakai .NET 8 SDK
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-
 WORKDIR /app
 
-# Salin file .csproj dulu (agar restore bisa pakai cache Docker)
+# Salin file .sln dan .csproj saja dulu (agar cache restore efisien)
 COPY WebAdminPresensi/WebAdminPresensi.csproj ./WebAdminPresensi/
+COPY WebAdminPresensi.sln ./
 
-# Jalankan restore
-RUN dotnet restore WebAdminPresensi/WebAdminPresensi.csproj
+# Restore dependensi
+RUN dotnet restore WebAdminPresensi.sln
 
-# Salin seluruh source code
+# Salin semua source code
 COPY . .
 
-# Publish project (hasil build masuk ke folder out)
-RUN dotnet publish WebAdminPresensi/WebAdminPresensi.csproj -c Release -o out
+# Publish project ke folder /app/out
+RUN dotnet publish WebAdminPresensi/WebAdminPresensi.csproj -c Release -o /app/out
 
-# Tahap runtime
+# Tahap runtime dengan ASP.NET 8
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
-
 WORKDIR /app
-
-# Salin hasil build dari tahap sebelumnya
 COPY --from=build /app/out .
+
+# Railway otomatis baca dari port 8080
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
 
 # Jalankan aplikasi
 ENTRYPOINT ["dotnet", "WebAdminPresensi.dll"]
