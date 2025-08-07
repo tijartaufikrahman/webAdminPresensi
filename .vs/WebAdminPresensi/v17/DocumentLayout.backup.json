@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|solutionrelative:webadminpresensi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12FB6004-0AE9-460B-845F-CB74E58B5B43}|WebAdminPresensi\\WebAdminPresensi.csproj|c:\\programing\\webadminpresensi\\webadminpresensi\\webadminpresensi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "WebAdminPresensi\\Views\\Home\\Privacy.cshtml",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebAdminPresensi\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Programing\\WebAdminPresensi\\WebAdminPresensi\\WebAdminPresensi\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebAdminPresensi\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-07T20:44:17.057Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "WebAdminPresensi\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T20:44:13.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:44:13.311Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "WebAdminPresensi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-07T20:44:07.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:44:07.613Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "WebAdminPresensi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T20:44:00.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T20:44:00.073Z"
             }
           ]
         }
