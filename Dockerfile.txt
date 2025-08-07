@@ -1,20 +1,13 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Salin file .csproj dulu
 COPY WebAdminPresensi/WebAdminPresensi.csproj ./WebAdminPresensi/
 COPY WebAdminPresensi.sln ./
-
-# Jalankan restore dengan path yang benar
 RUN dotnet restore WebAdminPresensi.sln
 
-# Lanjut salin semua
 COPY . .
-
-# Publish
 RUN dotnet publish WebAdminPresensi/WebAdminPresensi.csproj -c Release -o /app/out
 
-# Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out .
